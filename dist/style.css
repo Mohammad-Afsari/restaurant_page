@@ -1,3 +1,9 @@
+/* Dynamic variables */
+:root {
+    --balsamiqsans: 'Balsamiq Sans', cursive;
+    --robomono: 'Roboto Mono', monospace;
+    --baloo: 'Baloo Bhaijaan 2', cursive;
+}
 
 /* Nav background colour */
 #tabs {
@@ -9,29 +15,38 @@
     background-color: darkslategray;
 }
 
-#mobile-demo li {
-    color: white;
-}
-
-
+/* Logo icon position */
 #logo {
     margin-left: 30px;
     font-size: 60px;
 }
 
+/* Home, Menu & Contact navbar */
 #tabs ul{
-    margin-left: 25%;
-    font-family: 'Balsamiq Sans', cursive;
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%, 0%);
+    font-family: var(--balsamiqsans);
     font-weight: bolder;
-    
 }
 
+/* Padding for navbar */
 #tabs li {
     padding-left: 100px;
 }
 
+/* Fonts for navbar elements */
 #tabs li a {
     font-size: 18px;
+}
+
+/* Hover effect for navbar elements */
+#tabs li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#mobile-demo li a:hover {
+    background: grey;
 }
 
 #mobile-demo {
@@ -39,28 +54,82 @@
     color:floralwhite;
 }
 
+/* Hamburger menu hover effect */
 #hamburger:hover {
-    color: navy;
+    color: rgba(0, 0, 0, 0.7);
 }
+
+/* Logo hover effect */
+#logo .material-icons:hover {
+    color:rgba(0, 0, 0, 0.7);
+}
+
 
 /* Background image on home page */
-img {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  z-index: 100;
-  top: 65px;
-  left: 0;
-
+#home {
+    height: 130vh;
+    background: url(/dist/img/homebackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-h1 {
-    color: red;
+/* Fix navbar position */
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.homepageHeading {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 5vw;
+}
+
+.homepageHeading h5 {
+    margin-top: 40px;
+}
+
+.info {
+    padding-top: 20px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: 0;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.homepageHeading h2, .homepageHeading h5, #orderNow .location p, .openingTimes p {
+    font-family: var(--baloo);
+}
+
+/* Order Now button on home page */
+#orderNow {
+    background:darkslategray;
+}
+
+#orderNow:hover {
+    background: grey;
+}
+
+
+#location:hover, #time:hover {
+    color: grey;
 }
