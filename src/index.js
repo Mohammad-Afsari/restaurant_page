@@ -1,5 +1,5 @@
 import { pageLoad } from "./pageload"
-import { renderMenuPage } from "./menu";
+import { homePage } from "./home";
 
 
 console.log("Yoooooooooooooooo")
