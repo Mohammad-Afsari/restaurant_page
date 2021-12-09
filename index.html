@@ -8,32 +8,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div id="content"></div>
+    <div id="content">
+    </div>
     
-    <nav>
-        <div class="nav-wrapper">       
-          <a href="#!" class="brand-logo">Bangers</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Home</a></li>
-            <li><a href="badges.html">Menu</a></li>
-            <li><a href="collapsible.html">Contact Us</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
-        </div>
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Home</a></li>
-        <li><a href="badges.html">Menu</a></li>
-        <li><a href="collapsible.html">Contact Us</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-
-    
+    <!-- This will be appended to content so no need for top-margin in css file once we are happy with the content before putting it into home.js -->
+    <div class="active" id="home">
+        <div class="background"><img src="/dist/img/homebackground.jpg" alt="Resturant"></div>
+        <div><h1>HELLO</h1></div>
+    </div>
 
 
     <script src="main.js"></script>
