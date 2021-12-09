@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageload__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageload */ \"./src/pageload.js\");\n/* harmony import */ var _pageload__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pageload__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_menu__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\n\r\nconsole.log(\"Yoooooooooooooooo\")\n\n//# sourceURL=webpack://resturant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageload__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageload */ \"./src/pageload.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_menu__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\n\r\nconsole.log(\"Yoooooooooooooooo\")\n\n//# sourceURL=webpack://resturant_page/./src/index.js?");
 
 /***/ }),
 
@@ -34,9 +34,10 @@ eval("\n\n//# sourceURL=webpack://resturant_page/./src/menu.js?");
 /*!*************************!*\
   !*** ./src/pageload.js ***!
   \*************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("document.addEventListener('DOMContentLoaded', function() {\r\n    var elems = document.querySelectorAll('.sidenav');\r\n    var instances = M.Sidenav.init(elems, {});\r\n  });\n\n//# sourceURL=webpack://resturant_page/./src/pageload.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Hamburger menu functionality using materialisecss\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    var elems = document.querySelectorAll('.sidenav');\r\n    var instances = M.Sidenav.init(elems, {});\r\n});\r\n\r\nconst pageLoad = (() => {\r\n    // Obtain container\r\n    const content = document.getElementById('content')\r\n\r\n    // Create div element\r\n    const newDiv = document.createElement('div')\r\n\r\n    newDiv.innerHTML = `    \r\n    <nav>\r\n        <div class=\"nav-wrapper z-depth-5\" id=\"tabs\">       \r\n            <a href=\"index.html\" class=\"brand-logo\" id=\"logo\"><i class=\"material-icons\">local_dining</i></a>\r\n            <a href=\"#\" data-target=\"mobile-demo\" class=\"sidenav-trigger\"><i class=\"material-icons\" id=\"hamburger\">menu</i></a>\r\n        <ul class=\"left hide-on-med-and-down\">\r\n            <li><a href=\"#!\">Home</a></li>\r\n            <li><a href=\"#!\">Menu</a></li>\r\n            <li><a href=\"#!\">Contact</a></li>\r\n        </ul>\r\n        </div>\r\n    </nav>\r\n\r\n    <ul class=\"sidenav\" id=\"mobile-demo\">\r\n        <li><a href=\"#!\">Home</a></li>\r\n        <li><a href=\"#!\">Menu</a></li>\r\n        <li><a href=\"#!\">Contact</a></li>\r\n    </ul>\r\n    `\r\n    content.appendChild(newDiv)\r\n})();\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoad);\n\n//# sourceURL=webpack://resturant_page/./src/pageload.js?");
 
 /***/ })
 

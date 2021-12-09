@@ -1,9 +1,66 @@
 
+/* Nav background colour */
+#tabs {
+    background-color: darkslategrey;
+}
 
-.kebaberz {
-    position: absolute;
-    text-align: center;
-    justify-content: center;
+/* Sidebar background colour */
+#mobile-demo {
+    background-color: darkslategray;
+}
+
+#mobile-demo li {
+    color: white;
 }
 
 
+#logo {
+    margin-left: 30px;
+    font-size: 60px;
+}
+
+#tabs ul{
+    margin-left: 25%;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bolder;
+    
+}
+
+#tabs li {
+    padding-left: 100px;
+}
+
+#tabs li a {
+    font-size: 18px;
+}
+
+#mobile-demo {
+    font-family: 'Balsamiq Sans', cursive;
+    color:floralwhite;
+}
+
+#hamburger:hover {
+    color: navy;
+}
+
+/* Background image on home page */
+img {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  z-index: 100;
+  top: 65px;
+  left: 0;
+
+}
+
+h1 {
+    color: red;
+}
