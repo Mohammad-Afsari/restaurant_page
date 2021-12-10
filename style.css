@@ -1,9 +1,24 @@
-/* Dynamic variables */
+
+/*=========================================  
+-- Dynamic variables
+=========================================*/
 :root {
     --balsamiqsans: 'Balsamiq Sans', cursive;
     --robomono: 'Roboto Mono', monospace;
     --baloo: 'Baloo Bhaijaan 2', cursive;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/*=========================================  
+-- Page load
+=========================================*/
 
 /* Nav background colour */
 #tabs {
@@ -64,6 +79,18 @@
     color:rgba(0, 0, 0, 0.7);
 }
 
+/* Fix navbar position */
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/*=========================================  
+-- Home Page
+=========================================*/
 
 /* Background image on home page */
 #home {
@@ -73,15 +100,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-/* Fix navbar position */
-nav {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
 }
 
 .homepageHeading {
@@ -102,6 +120,7 @@ nav {
     margin-top: 40px;
 }
 
+/* Location & Opening times */
 .info {
     padding-top: 20px;
     position: absolute;
@@ -116,6 +135,7 @@ nav {
     text-align: center;
 }
 
+/* Front page content fonts */
 .homepageHeading h2, .homepageHeading h5, #orderNow .location p, .openingTimes p {
     font-family: var(--baloo);
 }
@@ -125,11 +145,73 @@ nav {
     background:darkslategray;
 }
 
+/* Order Now Button hover */
 #orderNow:hover {
     background: grey;
 }
 
-
+/* Location & Opening time icon hover */
 #location:hover, #time:hover {
     color: grey;
 }
+
+/* Dates */
+span {
+    font-weight: bolder;
+    color: orange;
+}
+
+
+/*=========================================  
+-- Menu Page
+=========================================*/
+
+/* Background header */
+#parallaxBackground {
+    height: 1000px;
+}
+
+/* Menu whitespace */
+#menu {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#menu h2 {
+    font-size: 5vw;
+}
+
+#menu p {
+    font-size: 3vw;
+}
+
+/* Menu logo */
+#menuLogo {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Starter background */
+#starter {
+    height: 1000px;
+}
+
+/* Appetisers */
+#headers {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 30px;
+}
+
+
+/* Card details*/
+.card-content p, .card-action p {
+    text-align: center;
+}
+
+/* Card images */
+.card-image img {
+    min-height: 200px;
+    height: 15vw;
+    object-fit:cover;
+}
+
