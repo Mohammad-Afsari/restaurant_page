@@ -89,17 +89,38 @@ nav {
 }
 
 /*=========================================  
+-- Footer (within pageload.js)
+=========================================*/
+#footer {
+    background: darkslategrey;
+    font-family: var(--baloo);
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+}
+
+#github:hover {
+    color:rgba(0, 0, 0, 0.7);
+}
+
+#dlishfooter {
+    text-decoration: underline;
+}
+
+
+/*=========================================  
 -- Home Page
 =========================================*/
 
 /* Background image on home page */
 #home {
-    height: 130vh;
+    height: 150vh;
     background: url(/dist/img/homebackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: -20px;
 }
 
 .homepageHeading {
@@ -214,4 +235,42 @@ span {
     height: 15vw;
     object-fit:cover;
 }
+
+/*=========================================  
+-- Contact Page
+=========================================*/
+
+/* Background image on home page */
+#contact {
+    height: 150vh;
+    background: url(/dist/img/contact/contact.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: -20px;
+}
+
+#map {
+    border-radius: 20px;
+    box-shadow: white;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.contactForm {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    width: 50%;
+}
+
 
