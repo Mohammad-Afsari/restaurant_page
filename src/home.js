@@ -31,6 +31,25 @@ const homePage = (() => {
             </div>
         </div>
     </div>
+
+    <footer class="page-footer" id="footer">
+        <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+            <h5 class="white-text" id="dlishfooter">D-Lish</h5>
+            <p class="grey-text text-lighten-4">Opening times:</p>
+            <p class="grey-text text-lighten-4">Monday - Thursday: 8am - 8pm</p>
+            <p class="grey-text text-lighten-4">Friday - Sunday: 8am - 11pm</p>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container">
+        © 2021 D-Lish developed by M-Afsari
+        <a class="grey-text text-lighten-4 right" href="https://github.com/Mohammad-Afsari/resturant_page"><i class="material-icons" id="github">code</i></a>
+        </div>
+        </div>
+    </footer>
     `
 
     content.appendChild(home)
