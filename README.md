@@ -2,28 +2,28 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <a href="https://mohammad-afsari.github.io/resturant_page/#home">
+   <a href="https://mohammad-afsari.github.io/restaurant_page/#home">
       <img src="/dist/img/demo.gif" alt="Rock" width="1200" height="500">
    </a>
 
   <p align="center">
     <strong>D-Lish Resturant</strong>
     <br />
-    <a href="https://mohammad-afsari.github.io/resturant_page/#home">View Demo</a>
+    <a href="https://mohammad-afsari.github.io/restaurant_page/#home">View Demo</a>
     ·
-    <a href="https://mohammad-afsari.github.io/resturant_page/#home/issues">Report Bug</a>
+    <a href="https://mohammad-afsari.github.io/restaurant_page/#home/issues">Report Bug</a>
     ·
-    <a href="https://mohammad-afsari.github.io/resturant_page/#home/issues">Request Feature</a>
+    <a href="https://mohammad-afsari.github.io/restaurant_page/#home/issues">Request Feature</a>
   </p>
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project involved building a fictional resturant landing page encorporating the use of modules and DOM manipulation. The website has three pages:
-- **Home**: Font page of the resturant
+This project involved building a fictional restaurant landing page encorporating the use of modules and DOM manipulation. The website has three pages:
+- **Home**: Font page of the restaurant
 - **Menu**: A menu showing off appetisers, main and desert
-- **Contact**: Contact us section including a form and location of the resturant on the map  
+- **Contact**: Contact us section including a form and location of the restaurant on the map  
 
 ### Built With
 * HTML
@@ -35,7 +35,7 @@ This project involved building a fictional resturant landing page encorporating 
 In order to setup and work on this project on your own, you will need to:
 
 1. Clone this project:  
-`git clone https://github.com/Mohammad-Afsari/resturant_page.git`
+`git clone https://github.com/Mohammad-Afsari/restaurant_page.git`
 
 2. Once you have cloned this project, you can install the required dependencies by using:  
 `npm install`
