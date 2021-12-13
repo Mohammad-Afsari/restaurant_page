@@ -292,6 +292,9 @@ i {
     cursor: pointer;
 }
 
+#name, #email, #number, #message {
+    color: white;
+}
 
 /*=========================================  
 -- Other
