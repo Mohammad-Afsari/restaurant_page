@@ -15,8 +15,8 @@ const contact = (() => {
                         <div class="col s12">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">person</i>
-                                <input id="title" type="text" class="validate">
-                                <label for="title">Name</label>
+                                <input id="name" type="text" class="validate">
+                                <label for="name">Name</label>
                             </div>
                         </div>
                         <div class="col s12">
@@ -29,15 +29,15 @@ const contact = (() => {
                         <div class="col s12">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">contact_phone</i>
-                                <input id="title" type="number" class="validate">
-                                <label for="title">Contact Number</label>
+                                <input id="number" type="number" class="validate">
+                                <label for="number">Contact Number</label>
                             </div>
                         </div>
                         <div class="col s12">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">comment</i>
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1"> Message</label>
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message"> Message</label>
                             </div>
                         </div>
                         <div class="input-field col s12">

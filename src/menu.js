@@ -25,7 +25,7 @@ const menu = (() => {
     menu.innerHTML = `
     <!-- Intro -->
     <div class="parallax-container">
-      <div class="parallax"><img src="/dist/img/homebackground.jpg" id="parallaxBackground"></div>
+      <div class="parallax"><img src="./img/homebackground.jpg" id="parallaxBackground"></div>
     </div>
     <div class="section grey lighten-3 z-depth-5">
       <div class="row container" id="menu">
@@ -37,7 +37,7 @@ const menu = (() => {
 
     <!-- Appetisers -->
     <div class="parallax-container">
-      <div class="parallax"><img src="/dist/img/appetisers/starter.jpg" id="starter"></div>
+      <div class="parallax"><img src="./img/appetisers/starter.jpg" id="starter"></div>
     </div>
     
     <div class="section grey lighten-3 z-depth-5">
@@ -48,7 +48,7 @@ const menu = (() => {
           <div class="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img class="materialboxed" src="/dist/img/appetisers/salad.jpg">
+                <img class="materialboxed" src="./img/appetisers/salad.jpg">
               </div>
               <div class="card-content">
                 <p>Vegeterian Salad</p>
@@ -61,7 +61,7 @@ const menu = (() => {
           <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed" src="/dist/img/appetisers/haloumi.jpg">
+                  <img class="materialboxed" src="./img/appetisers/haloumi.jpg">
                 </div>
                 <div class="card-content">
                   <p>Halloumi</p>
@@ -74,7 +74,7 @@ const menu = (() => {
             <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed" src="/dist/img/appetisers/salmon-biscuits.jpg">
+                  <img class="materialboxed" src="./img/appetisers/salmon-biscuits.jpg">
                 </div>
                 <div class="card-content">
                   <p>Salmon Bites</p>
@@ -87,7 +87,7 @@ const menu = (() => {
             <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed" src="/dist/img/appetisers/minipizza.jpg">
+                  <img class="materialboxed" src="./img/appetisers/minipizza.jpg">
                 </div>
                 <div class="card-content">
                   <p>Pizza Bites</p>
@@ -100,7 +100,7 @@ const menu = (() => {
             <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed" src="/dist/img/appetisers/dumplings.jpg">
+                  <img class="materialboxed" src="./img/appetisers/dumplings.jpg">
                 </div>
                 <div class="card-content">
                   <p>Dumplings</p>
@@ -113,7 +113,7 @@ const menu = (() => {
             <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed" src="/dist/img/appetisers/prawns.jpg">
+                  <img class="materialboxed" src="./img/appetisers/prawns.jpg">
                 </div>
                 <div class="card-content">
                   <p>Butter Prawn</p>
@@ -128,7 +128,7 @@ const menu = (() => {
     </div>
     <!-- Main -->
     <div class="parallax-container">
-      <div class="parallax"><img src="/dist/img/mains/mains.jpg"></div>
+      <div class="parallax"><img src="./img/mains/mains.jpg"></div>
     </div>
     <div class="section grey lighten-3 z-depth-5">
       <div class="row container">
@@ -138,7 +138,7 @@ const menu = (() => {
               <div class="col s12 m4">
               <div class="card">
                   <div class="card-image">
-                  <img class="materialboxed" src="/dist/img/mains/pizzaveg.jpg">
+                  <img class="materialboxed" src="./img/mains/pizzaveg.jpg">
                   </div>
                   <div class="card-content">
                   <p>House Pizza</p>
@@ -151,7 +151,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/quesadillaveg.jpg">
+                      <img class="materialboxed" src="./img/mains/quesadillaveg.jpg">
                   </div>
                   <div class="card-content">
                       <p>Quesadilla (Veg)</p>
@@ -164,7 +164,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/salmon.jpg">
+                      <img class="materialboxed" src="./img/mains/salmon.jpg">
                   </div>
                   <div class="card-content">
                       <p>Salmon</p>
@@ -177,7 +177,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/chickentacos.jpg">
+                      <img class="materialboxed" src="./img/mains/chickentacos.jpg">
                   </div>
                   <div class="card-content">
                       <p>Chicken Tacos</p>
@@ -190,7 +190,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/chickenshish.jpg">
+                      <img class="materialboxed" src="./img/mains/chickenshish.jpg">
                   </div>
                   <div class="card-content">
                       <p>Chicken Shish</p>
@@ -203,7 +203,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/chickencurry.jpg">
+                      <img class="materialboxed" src="./img/mains/chickencurry.jpg">
                   </div>
                   <div class="card-content">
                       <p>Chicken Curry</p>
@@ -216,7 +216,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/lambbiryani.jpg">
+                      <img class="materialboxed" src="./img/mains/lambbiryani.jpg">
                   </div>
                   <div class="card-content">
                       <p>Lamb Biryani</p>
@@ -229,7 +229,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/burger.jpg">
+                      <img class="materialboxed" src="./img/mains/burger.jpg">
                   </div>
                   <div class="card-content">
                       <p>Wagyu Burger</p>
@@ -242,7 +242,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                   <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/mains/steak.jpg">
+                      <img class="materialboxed" src="./img/mains/steak.jpg">
                   </div>
                   <div class="card-content">
                       <p>Fillet Steak</p>
@@ -257,7 +257,7 @@ const menu = (() => {
       </div>
       <!-- Desert / Beverage -->
     <div class="parallax-container">
-      <div class="parallax"><img src="/dist/img/deserts/deserts.jpg"></div>
+      <div class="parallax"><img src="./img/deserts/deserts.jpg"></div>
     </div>
     <div class="section grey lighten-3 z-depth-5">
       <div class="row container">
@@ -267,7 +267,7 @@ const menu = (() => {
               <div class="col s12 m4">
                 <div class="card">
                   <div class="card-image">
-                    <img class="materialboxed" src="/dist/img/deserts/carrotcake.jpg">
+                    <img class="materialboxed" src="./img/deserts/carrotcake.jpg">
                   </div>
                   <div class="card-content">
                     <p>Carrot Cake</p>
@@ -280,7 +280,7 @@ const menu = (() => {
               <div class="col s12 m4">
                   <div class="card">
                     <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/deserts/chocolatefudge.jpg">
+                      <img class="materialboxed" src="./img/deserts/chocolatefudge.jpg">
                     </div>
                     <div class="card-content">
                       <p>Chocolate Fudge</p>
@@ -293,7 +293,7 @@ const menu = (() => {
                 <div class="col s12 m4">
                   <div class="card">
                     <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/deserts/chocolatecheesecake.jpg">
+                      <img class="materialboxed" src="./img/deserts/chocolatecheesecake.jpg">
                     </div>
                     <div class="card-content">
                       <p>Chocolate Cheesecake</p>
@@ -306,7 +306,7 @@ const menu = (() => {
                 <div class="col s12 m4">
                   <div class="card">
                     <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/deserts/rasberrycake.jpg">
+                      <img class="materialboxed" src="./img/deserts/rasberrycake.jpg">
                     </div>
                     <div class="card-content">
                       <p>Rasberry Cake</p>
@@ -319,7 +319,7 @@ const menu = (() => {
                 <div class="col s12 m4">
                   <div class="card">
                     <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/deserts/icecream.jpg">
+                      <img class="materialboxed" src="./img/deserts/icecream.jpg">
                     </div>
                     <div class="card-content">
                       <p>Icecream</p>
@@ -332,7 +332,7 @@ const menu = (() => {
                 <div class="col s12 m4">
                   <div class="card">
                     <div class="card-image">
-                      <img class="materialboxed" src="/dist/img/deserts/milkshake.jpg">
+                      <img class="materialboxed" src="./img/deserts/milkshake.jpg">
                     </div>
                     <div class="card-content">
                       <p>Fererro Milkshake</p>
