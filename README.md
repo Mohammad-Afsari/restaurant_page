@@ -1,4 +1,4 @@
-# D-Lish Resturant
+# D-Lish Restaurant
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
