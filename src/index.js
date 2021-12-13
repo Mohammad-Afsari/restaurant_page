@@ -5,6 +5,7 @@ import { menu } from "./menu"
 import { contact } from "./contact"
 
 
+
 // Get elements
 const navElements = document.querySelectorAll('#navElements')
 const hamburgerElements = document.querySelectorAll('#hamburgerElements')
@@ -25,7 +26,6 @@ navElements.forEach(function(elements) {
 // Hamburger menu driven contact
 hamburgerElements.forEach(function(elements) {
     elements.addEventListener('click', navigateContent)
-
 })
 
 // Functionality between pages
