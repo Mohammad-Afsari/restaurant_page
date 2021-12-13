@@ -6,7 +6,7 @@ const homePage = (() => {
     const home = document.createElement('div')
     home.classList.add('tab-content')
     home.innerHTML = `
-    <div class="active" id="home">
+    <div class="active" data-tab-content id="home">
         <div class="homepageHeading z-depth-5">
             <h2>We welcome you to try our amazing food!</h2>
             <h5>Delicious, healthy and affordable!</h5>
@@ -32,7 +32,7 @@ const homePage = (() => {
         </div>
     </div>
 
-    <footer class="page-footer" id="footer">
+    <footer class="page-footer homeFooter active" data-tab-content id="footer">
         <div class="container">
         <div class="row">
             <div class="col l6 s12">

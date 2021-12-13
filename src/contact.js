@@ -4,6 +4,7 @@ const contact = (() => {
 
     // Create new div for contact
     const contact = document.createElement('div')
+    contact.classList.add('tab-content')
     contact.setAttribute('id','contact')
     contact.setAttribute('data-tab-content','')
     contact.innerHTML = `
@@ -40,18 +41,18 @@ const contact = (() => {
                             </div>
                         </div>
                         <div class="input-field col s12">
-                            <input type="submit" value="Send Message" class="waves-effect waves-light btn addBook">
+                            <input type="submit" value="Send Message" class="waves-effect waves-light btn sendMessage" id="sendMessage">
                         </div>
                     </form>
                 </div>
             <div class="col s12 m6">
-                <div class="col s12">
+                <div class="col s12 z-depth-5">
                     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9917.335416127848!2d-0.0991861!3d51.5804444!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79fd13de175e03b9!2sHala%20Restaurant!5e0!3m2!1sen!2suk!4v1639155410844!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="page-footer" id="footer">
+    <footer class="page-footer contactFooter" data-tab-content id="footer">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">

@@ -1,8 +1,10 @@
 
+
 // Parallax backgrounds
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, {});
+
 });
 
 // Zoom on menu
@@ -17,6 +19,7 @@ const menu = (() => {
 
     // Create new elements
     const menu = document.createElement('div')
+    menu.classList.add('tab-content')
     menu.setAttribute('id', 'menuPage')
     menu.setAttribute('data-tab-content','')
     menu.innerHTML = `
@@ -345,7 +348,7 @@ const menu = (() => {
       </div>
     </div>
 
-    <footer class="page-footer" id="footer">
+    <footer class="page-footer menuFooter" data-tab-content id="footer">
         <div class="container">
         <div class="row">
             <div class="col l6 s12">
