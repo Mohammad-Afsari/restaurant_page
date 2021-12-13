@@ -40,7 +40,7 @@
 #tabs ul{
     position: absolute;
     left: 48%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 5%);
     font-family: var(--balsamiqsans);
     font-weight: bolder;
 }
@@ -53,15 +53,18 @@
 /* Fonts for navbar elements */
 #tabs li a {
     font-size: 18px;
+
 }
 
 /* Hover effect for navbar elements */
 #tabs li a:hover {
-    background: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
+    background: none;
 }
 
 #mobile-demo li a:hover {
-    background: grey;
+    color: grey;
+    background: none;
 }
 
 #mobile-demo {
@@ -82,11 +85,13 @@
 /* Fix navbar position */
 nav {
     overflow: hidden;
-    position: fixed;
+    position:fixed;
     top: 0;
     width: 100%;
     z-index: 1;
 }
+
+
 
 /*=========================================  
 -- Footer (within pageload.js)
@@ -242,7 +247,7 @@ span {
 
 /* Background image on home page */
 #contact {
-    height: 100vh;
+    height: 140vh;
     background: url(/dist/img/contact/contact.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -270,9 +275,35 @@ i {
     top: 30%;
     left: 10%;
     right: 10%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.97);
     border-radius: 12px;
     padding: 20px 0 40px 0;
     font-family: var(--baloo);
 }
+
+#sendMessage {
+    font-family: var(--baloo);
+}
+
+#sendMessage:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+/*=========================================  
+-- Other
+=========================================*/
+
+
+/* Enable */
+.active[data-tab-content] {
+    display: block;
+}
+
+/* Disable */
+[data-tab-content] {
+    display: none;
+}
+
 
