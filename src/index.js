@@ -9,13 +9,14 @@ import { contact } from "./contact"
 // Get elements
 const navElements = document.querySelectorAll('#navElements')
 const hamburgerElements = document.querySelectorAll('#hamburgerElements')
-const parallaxDiv = document.getElementById('tabs')
 const home = document.getElementById('home')
 const menuPage = document.getElementById('menuPage')
 const contactPage = document.getElementById('contact')
 const homeFooter = document.querySelector('.homeFooter')
 const menuFooter = document.querySelector('.menuFooter')
 const contactFooter = document.querySelector('.contactFooter')
+const orderBtn = document.getElementById('orderNow')
+
 
 // Navbar driven content
 navElements.forEach(function(elements) {
@@ -44,7 +45,6 @@ function navigateContent(e) {
         menuFooter.classList.add('active')
         contactPage.classList.remove('active')
         contactFooter.classList.remove('active')
-        parallaxDiv.scrollIntoView();
     } else if (e.target.innerHTML === "Contact") {
         home.classList.remove('active')
         homeFooter.classList.remove('active')
@@ -53,4 +53,18 @@ function navigateContent(e) {
         contactPage.classList.add('active')
         contactFooter.classList.add('active')
     }
+
+    console.log(e.target)
 }
+
+// Order Now home button
+orderBtn.addEventListener('click',function(e) {
+    home.classList.remove('active')
+    homeFooter.classList.remove('active')
+    menuPage.classList.add('active')
+    menuFooter.classList.add('active')
+    contactPage.classList.remove('active')
+    contactFooter.classList.remove('active')
+    console.log(e.target)
+})
+

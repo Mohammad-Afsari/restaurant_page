@@ -20,9 +20,9 @@ const pageLoad = (() => {
             <a href="index.html" class="brand-logo" id="logo"><i class="material-icons">local_dining</i></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" id="hamburger">menu</i></a>
         <ul class="left hide-on-med-and-down">
-            <li><a id="navElements" href="#home">Home</a></li>
-            <li><a id="navElements" href="#menu">Menu</a></li>
-            <li><a id="navElements" href="#contact">Contact</a></li>
+            <li><a id="navElements" class="homeBtn" href="#home">Home</a></li>
+            <li><a id="navElements" class="menuBtn" href="#menu">Menu</a></li>
+            <li><a id="navElements" class="contactBtn" href="#contact">Contact</a></li>
         </ul>
         </div>
     </nav>
