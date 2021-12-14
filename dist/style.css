@@ -55,7 +55,6 @@
 /* Fonts for navbar elements */
 #tabs li a {
     font-size: 18px;
-
 }
 
 /* Hover effect for navbar elements */
@@ -64,10 +63,16 @@
     background: none;
 }
 
+
+#mobile-demo li a {
+    color: floralwhite;
+}
+
 #mobile-demo li a:hover {
-    color: grey;
+    color: rgba(0, 0, 0, 0.7);
     background: none;
 }
+
 
 #mobile-demo {
     font-family: 'Balsamiq Sans', cursive;
