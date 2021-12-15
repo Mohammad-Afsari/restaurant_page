@@ -29,6 +29,7 @@ This project involved building a fictional restaurant landing page encorporating
 * HTML
 * CSS
 * Vanilla JavaScript
+* Webpack
 
 ## Getting Started
 
