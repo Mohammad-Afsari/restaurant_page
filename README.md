@@ -3,7 +3,7 @@
 <br />
 <p align="center">
    <a href="https://mohammad-afsari.github.io/restaurant_page/#home">
-      <img src="/dist/img/demo.gif" alt="Rock" width="1200" height="500">
+      <img src="/dist/img/demo.gif" alt="D-Lishgif" width="1200" height="500">
    </a>
 
   <p align="center">
